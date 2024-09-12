@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e13e5fe-323b-4acf-a3f3-0931f79b9584" name="Changes" comment="" />
+    <list default="true" id="6e13e5fe-323b-4acf-a3f3-0931f79b9584" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/embed.py" beforeDir="false" afterPath="$PROJECT_DIR$/embed.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +33,7 @@
   "keyToString": {
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726151755487</updated>
       <workItem from="1726151766658" duration="1257000" />
-      <workItem from="1726153263364" duration="8024000" />
+      <workItem from="1726153263364" duration="8332000" />
     </task>
     <servers />
   </component>
