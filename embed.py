@@ -1,7 +1,15 @@
+from dotenv import load_dotenv
+
 import os
 
-os.environ['OPENAI_API_KEY'] = 'sk-91kj_uBVl0FF04CIui3DMWztyvs9H3I0MfyEauSkakT3BlbkFJtzUckyI5x0l5ND60ELk-coCHjyAgzNw2heP9otXvgA'
-os.environ['PINECONE_API_KEY'] = 'f3efd778-57a4-40b7-a4ca-9ef6d919ae98'
+# load environment variables from .env file
+load_dotenv()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+
+print("hello")
+print(OPENAI_API_KEY)
 
 
 from langchain_community.document_loaders import PyPDFLoader
