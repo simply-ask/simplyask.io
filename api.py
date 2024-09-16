@@ -31,13 +31,13 @@ llm = ChatOpenAI(
 )
 
 # Creating Prompt
-prompt_template = """Use the following pieces of context to answer the question at the end. 
+prompt_template = """Use the following pieces of context to answer the question or carry out the request at the end. 
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 
 {context}
 
-Question: {question}
-Provide a concise answer in 1-4 sentences:"""
+Question / Request: {question}
+If not specified in the question or request above, Provide a concise answer in 1-4 sentences:"""
 
 PROMPT = PromptTemplate(
     template=prompt_template, input_variables=["context", "question"]
