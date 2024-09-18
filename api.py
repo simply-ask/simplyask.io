@@ -16,7 +16,7 @@ PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
 embedding = OpenAIEmbeddings(model="text-embedding-ada-002")
-index_name = "simplyadmin"
+index_name = "allenheritage"
 
 vectorstore = PineconeVectorStore.from_existing_index(
     index_name=index_name,
